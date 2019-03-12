@@ -10,8 +10,8 @@ public interface IDefaultDemo1 extends IDefaultDemo2{
 	default String getdata(String param){
 		return MESSAGE.concat(param);
 	}
-	// Object method cannot be overriddden
-	/*default String toString(){
+	// Object method cannot be overriddden default,static(method with same signature)
+/*	default String toString(){
 		return "";
 	}*/
 }
