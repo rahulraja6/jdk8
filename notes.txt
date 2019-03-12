@@ -16,3 +16,7 @@ They are more structured and can have a state associated with them.
 Default method can be implemented only in the terms of invoking other interface methods, with no reference to a particular implementation's state. 
 Both are used for different purposes and choosing between two really depends on the scenario context.
 
+References:
+https://dzone.com/articles/interface-default-methods-java
+https://www.journaldev.com/2752/java-8-interface-changes-static-method-default-method
+https://winterbe.com/posts/2014/03/16/java-8-tutorial
