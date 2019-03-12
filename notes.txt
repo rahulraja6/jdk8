@@ -6,8 +6,13 @@ Default methods
 	Java interface static method helps us in providing security by not allowing implementation classes to override them.
 	default methods cannot override Object class methods
 	We can’t define interface static method for Object class methods, we will get compiler error as “This static method cannot hide the instance method from Object”. This is because it’s not allowed in java, since Object is the base class for all the classes and we can’t have one class level static method and another instance method with same signature.
-  
-  
-References:
-https://winterbe.com/posts/2014/03/16/java-8-tutorial/
-https://www.journaldev.com/2752/java-8-interface-changes-static-method-default-method
+	foreach method is implemented as default in Iterable interface.
+	Streams also needed default implementations
+	Methods in classes can use and modify method arguments as well as the fields of their class, but default method, on the other hand, can only access its arguments as interfaces do not have any state.
+	
+Abstract Classes Versus Interfaces in Java 8
+The abstract class can define constructors. 
+They are more structured and can have a state associated with them. 
+Default method can be implemented only in the terms of invoking other interface methods, with no reference to a particular implementation's state. 
+Both are used for different purposes and choosing between two really depends on the scenario context.
+
