@@ -15,6 +15,7 @@ public static void main(String[] args) {
 	};
 	System.out.println(demo.getdata(demo.getname()));
 }
+//public abstract String getdata(String param);			//Can make it abstract so the subclass can provide implementation
 
 @Override
 public String getname() {
